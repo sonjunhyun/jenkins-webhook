@@ -4,7 +4,7 @@ node {
   }
 
   stage('Build image') {
-    dockerImage = docker.build("leonica0429/node-front:1.0")
+    dockerImage = docker.build("leonica0429/node-front:2.0")
   }
 
   stage('Push image') {
